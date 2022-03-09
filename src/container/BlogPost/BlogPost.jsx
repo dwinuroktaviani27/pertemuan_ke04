@@ -1,21 +1,31 @@
 import React, { Component } from "react";
 import './BlogPost.css';
 import Post from "./Post";
-// import Post from "./Post";
 
 class BlogPost extends Component {
     state = {
         listArtikel: []
     }
 
-    componentDidMount(){
-        fetch ('https://jsonplaceholder.typicode.com/posts')
-        .then(response => response.json())
-        .then(jsonHasilAmbilDariAPI => {
-            this.setState ({
-                listArtikel: jsonHasilAmbilDariAPI
+    ambilDataDariServerAPI = () => {
+        fetch('http://localhost:3001/posts')
+            .then(response => response.json())
+            .then(jsonHasilAmbilDariAPI => {
+                this.setState({
+                    listArtikel: jsonHasilAmbilDariAPI
+                })
             })
-        })
+    }
+
+    componentDidMount() {
+        this.ambilDataDariServerAPI()
+    }
+
+    handleHapusArtikel = (data) => {
+        fetch(`http://localhost:3001/posts/${data}`, {method: 'DELETE' })
+            .then(res => {
+                this.ambilDataDariServerAPI()
+            })
     }
 
 
@@ -26,7 +36,7 @@ class BlogPost extends Component {
                 <h2>Daftar Artikel</h2>
                 {
                     this.state.listArtikel.map(artikel => {
-                        return <Post key={artikel.id} judul={artikel.title} isi={artikel.body}/>
+                        return <Post key={artikel.id} judul={artikel.title} isi={artikel.body} idArtikel={artikel.id} hapusArtikel={this.handleHapusArtikel} />
                     })
                 }
                 {/* <Post judul="JTI Polinema" isi="Jurusan Teknologi Informasi - Politeknik Negeri Malang"></Post> */}
