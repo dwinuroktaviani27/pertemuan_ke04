@@ -6,8 +6,9 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 import BlogPost from "./container/BlogPost/BlogPost";
+import BlogMahasiswa from "./container/BlogMahasiswa/BlogMahasiswa";
 
-ReactDOM.render(<BlogPost/>, document.getElementById('content'));
+ReactDOM.render(<BlogMahasiswa/>, document.getElementById('content'));
 
 // ReactDOM.render(
 //   <React.StrictMode>

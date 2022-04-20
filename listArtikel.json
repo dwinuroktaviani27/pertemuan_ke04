@@ -26,12 +26,6 @@
     },
     {
       "userId": 1,
-      "id": 8,
-      "title": "dolorem dolore est ipsam",
-      "body": "dignissimos aperiam dolorem qui eum\nfacilis quibusdam animi sint suscipit qui sint possimus cum\nquaerat magni maiores excepturi\nipsam ut commodi dolor voluptatum modi aut vitae"
-    },
-    {
-      "userId": 1,
       "id": 9,
       "title": "nesciunt iure omnis dolorem tempora et accusantium",
       "body": "consectetur animi nesciunt iure dolore\nenim quia ad\nveniam autem ut quam aut nobis\net est aut quod aut provident voluptas autem voluptas"
@@ -584,15 +578,9 @@
     },
     {
       "userId": 1,
-      "id": 1646828835168,
-      "title": "A",
-      "body": "A"
-    },
-    {
-      "userId": 1,
-      "id": 1646828850012,
-      "title": "Coba",
-      "body": "Coba"
+      "id": 1646829009281,
+      "title": "Kontrol Kualitas Air Kolam Ikan Lele Berbasis Microbubbles dan Internet of Things (IOT)",
+      "body": "Tujuan pengabdian masyarakat ini adalah memberikan solusi atas permasalahan yang dihadapi oleh mitra berupa teknologi tepat guna untuk monitoring kualitas air berbasis IoT dan microbubbles yang dilengkapi dengan sensor salinitas, kejernihan, pH, dissolved oxygen (DO), dan sensor temperatur. Perangkat ini dapat memantau kualitas air secara realtime dan ketika kualitas air dibawah ambang batas, maka generator microbubbles akan aktif untuk memproduksi microbubbles kemudian mengalirkan air tersebut ke kolam ikan. Metode pelaksanaan pengabdian ini dimulai dengan observasi untuk mengetahui masalah pada mitra, perancangan dan pembuatan perangkat teknologi, sosialisasi serta pengujian performa perangkat. Hasil pengujian menunjukan bahwa dengan menggunakan instrumen yang diajukan, mitra dapat menghemat penggunaan air sebanyak 20%, pengeluaran listrik sebanyak 17%, dan memudahkan mitra karena perangkat teknologi ini dapat diatur dengan mudah menggunakan smartphone. Dari pengujian tersebut dapat disimpulkan bahwa instrumen yang diajukan dapat menjadi solusi terhadap permasalahan yang dialami mitra."
     }
   ],
   "comments": [
@@ -735,41 +723,6 @@
       "name": "repellendus sapiente omnis praesentium aliquam ipsum id molestiae omnis",
       "email": "Georgianna@florence.io",
       "body": "dolor mollitia quidem facere et\nvel est ut\nut repudiandae est quidem dolorem sed atque\nrem quia aut adipisci sunt"
-    },
-    {
-      "postId": 8,
-      "id": 36,
-      "name": "sit et quis",
-      "email": "Raheem_Heaney@gretchen.biz",
-      "body": "aut vero est\ndolor non aut excepturi dignissimos illo nisi aut quas\naut magni quia nostrum provident magnam quas modi maxime\nvoluptatem et molestiae"
-    },
-    {
-      "postId": 8,
-      "id": 37,
-      "name": "beatae veniam nemo rerum voluptate quam aspernatur",
-      "email": "Jacky@victoria.net",
-      "body": "qui rem amet aut\ncumque maiores earum ut quia sit nam esse qui\niusto aspernatur quis voluptas\ndolorem distinctio ex temporibus rem"
-    },
-    {
-      "postId": 8,
-      "id": 38,
-      "name": "maiores dolores expedita",
-      "email": "Piper@linwood.us",
-      "body": "unde voluptatem qui dicta\nvel ad aut eos error consequatur voluptatem\nadipisci doloribus qui est sit aut\nvelit aut et ea ratione eveniet iure fuga"
-    },
-    {
-      "postId": 8,
-      "id": 39,
-      "name": "necessitatibus ratione aut ut delectus quae ut",
-      "email": "Gaylord@russell.net",
-      "body": "atque consequatur dolorem sunt\nadipisci autem et\nvoluptatibus et quae necessitatibus rerum eaque aperiam nostrum nemo\neligendi sed et beatae et inventore"
-    },
-    {
-      "postId": 8,
-      "id": 40,
-      "name": "non minima omnis deleniti pariatur facere quibusdam at",
-      "email": "Clare.Aufderhar@nicole.ca",
-      "body": "quod minus alias quos\nperferendis labore molestias quae ut ut corporis deserunt vitae\net quaerat ut et ullam unde asperiores\ncum voluptatem cumque"
     },
     {
       "postId": 9,
