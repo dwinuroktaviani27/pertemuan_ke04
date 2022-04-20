@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import API from "../../services";
 import './BlogPost.css';
 import Post from "./Post";
 
@@ -14,13 +15,11 @@ class BlogPost extends Component {
     }
 
     ambilDataDariServerAPI = () => {
-        fetch('http://localhost:3001/posts?_sort_id&_order=desc')
-            .then(response => response.json())
-            .then(jsonHasilAmbilDariAPI => {
-                this.setState({
-                    listArtikel: jsonHasilAmbilDariAPI
-                })
+        API.getNewsBlog().then(result => {
+            this.setState({
+                listArtikel:result
             })
+        })
     }
 
     componentDidMount() {
